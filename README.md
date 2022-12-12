@@ -27,7 +27,7 @@ $$s_{ij}\leq \left((n-1)\cdot c_{\max}+(|R|-1)\cdot \left(\max_{r\in R}\Delta_r\
 Following changes are made:
   1. Constraints marked with (Res) are now modified resource constraints, where (Res2), (Res3) and (Res4) naturally follows by adding an extra dimension to account for the index.
   2. (Res1) now limits the number of resources allocated must not exceed the total amount given, for each type of resources
-  3. (Res5) follows the same constraint but also accounts for resource-specific dealy in fire spreading. So the maximum slackness updated is bounded as modified in (Res6)
+  3. (Res5) follows the same constraint but also accounts for resource-specific dealy in fire spreading. So the slackness update is bounded by maximum delay as modified in (Res6)
 
 See the [original model](test.ipynb) and the [modified model](model_protect.py). 
 
