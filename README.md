@@ -3,9 +3,7 @@
 Preliminary implementation for the fire fighting problem with specified nodes to protect.
 
 Let $ign$ be the ignition node, solve
-$$
-\min \qquad \sum_{i\in N}\sum_{k\in K}\sum_{r\in R} z_{i}^{kr}\tag{OF}
-$$
+$$\min \qquad \sum_{i\in N}\sum_{k\in K}\sum_{r\in R} z_{i}^{kr}\tag{OF}$$
 Subject to
 $$\sum_{ign,j\in A}x_{ign,j}=n-1$$
 $$-\sum_{ij\in A}x_{ij}+\sum_{ji\in A}x_{ji}=1\quad \forall i\in N\setminus \{ign\}$$
