@@ -30,3 +30,6 @@ Following changes are made:
   3. (Res5) follows the same constraint but also accounts for resource-specific dealy in fire spreading. So the maximum slackness updated is bounded as modified in (Res6)
 
 See the [original model](test.ipynb) and the [modified model](model_protect.py). 
+
+### TODO
+- [ ] Finish [WIP](model.ipynb)
