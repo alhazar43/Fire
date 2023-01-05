@@ -1,11 +1,17 @@
 # Fire
 
-
+### Define cuts
 Let $ign$ be the ignition node, $p\in P$ be the set of nodes to be protected. Wirte $SPT_p$ as the shortest path from $ign$ to $p$ and $c_{SPT_p}$ be the corresponding travel cost.
 For instants $K_p=\set{b_k\mid b_k< c_{SPT_p}}$ it suffices
 
 $$\sum_{i\in SPT_p}\sum_{k\in K_p}z_i^k\geq 1$$
 
+### Procedure
+```python
+for p in P:
+  k, stp = STP(C, ign, p)
+  
+```
 
 ***
 
