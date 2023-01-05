@@ -1,10 +1,10 @@
 # Fire
 
 
-Let $ign$ be the ignition node, $p\in P$ be the set of nodes to be protected. Wirte $SPT_p$ as the shortest path from $ign$ to $p$ and $c_{SPT_p}$ be the corresponding travel cost.
+Let $ign$ be the ignition node, $p\in P$ be the set of nodes to be protected. Wirte $SPT_p$ as the shortest path from $ign$ to $p$ and $c_{SPT}$ be the corresponding travel cost.
 It suffices
 
-$$\sum_{i\in SPT_p}z_i^k\geq 1$$
+$$\sum_{i\in SPT_p}\sum_{k, b_k<C_{SPT}}z_i^k\geq 1$$
 
 
 ***
